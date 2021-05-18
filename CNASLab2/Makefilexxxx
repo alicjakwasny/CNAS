@@ -1,0 +1,6 @@
+
+main : main.c
+	g++ -Wall -o main main.c
+
+processes : processes.c
+	g++ -Wall processes processes.c
